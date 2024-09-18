@@ -1,0 +1,11 @@
+streamlit
+requests
+langchain
+langchain_chroma
+langchain_community
+langchain_core
+langchain_ollama
+beautifulsoup4
+langchainhub
+fastapi
+pydantic
