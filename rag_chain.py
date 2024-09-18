@@ -20,7 +20,7 @@ llm = OllamaLLM(model="mistral")
 
 # 1. Load, chunk and index the contents of the blog to create a retriever.
 loader = WebBaseLoader(
-    web_paths=("https://lilianweng.github.io/posts/2023-06-23-agent/",),
+    web_paths=("https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f",),
     bs_kwargs=dict(
         parse_only=bs4.SoupStrainer(
             class_=("post-content", "post-title", "post-header")
